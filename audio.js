@@ -1,4 +1,4 @@
-const audio = new Audio("HowDareYouSetFootOnTheseGrounds.mp3");
+const audio = new Audio("media/HowDareYouSetFootOnTheseGrounds.mp3");
 
 const pageTitleElement = document.getElementById("audio-HowDareYouSetFootOnTheseGrounds");
 
