@@ -10,6 +10,7 @@ body {
     padding: 4em 6em;
     font-size: 1.2em;
     transition: background-color 0.25s ease, color 0.25s ease;
+    font-family: "Be Vietnam Pro", sans-serif;
 }
 
 body.dark-mode {
