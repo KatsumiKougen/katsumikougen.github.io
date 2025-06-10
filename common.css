@@ -18,26 +18,40 @@ body.dark-mode {
     --text-colour: #ffffff;
 }
 
-.main-container div.intro {
-    font-size: 8em;
-    font-weight: 900;
-    letter-spacing: -3pt;
-    line-height: 0.85em;
-    text-transform: uppercase;
-}
-
-.main-container div.text {
-    margin: 2em;
-}
-
-.main-container div.text p {
-    padding: 0.2em 0;
+.main-container {
+    & div.intro {
+        font-size: 8em;
+        font-weight: 900;
+        letter-spacing: -3pt;
+        line-height: 0.85em;
+        text-transform: uppercase;
+    }
+    
+    & p {
+        padding: 0.2em 0;
+    }
+    
+    & div.text {
+        margin: 2em;
+        
+        &.page-credits {
+            margin: 3em;
+            font-size: 0.75em;
+            font-weight: 500;
+        }
+    }
+    
+    & hr {
+        border: 3px solid var(--text-colour);
+        border-radius: 1em;
+        margin: 10px 0;
+    }
 }
 
 button#toggle-mode {
     position: fixed;
-    top: 2rem;
-    right: 2rem;
+    top: 3rem;
+    right: 3rem;
     z-index: 1000;
     padding: 0.4rem 1.0rem;
     cursor: pointer;
@@ -48,11 +62,11 @@ button#toggle-mode {
     border: 2px solid var(--bg-colour);
     border-radius: 1rem;
     transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
-}
-
-button#toggle-mode:hover {
-    padding: 0.4rem 1.0rem;
-    border: 2px solid var(--text-colour);
-    background-color: var(--bg-colour);
-    color: var(--text-colour);
+    
+    &:hover {
+        padding: 0.4rem 1.0rem;
+        border: 2px solid var(--text-colour);
+        background-color: var(--bg-colour);
+        color: var(--text-colour);
+    }
 }
