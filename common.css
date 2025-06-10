@@ -4,7 +4,7 @@
     transition: background-color 0.25s ease, color 0.25s ease;
 }
 
-.main-container {
+body {
     background-color: var(--bg-colour);
     color: var(--text-colour);
     padding: 4em 6em;
@@ -13,7 +13,7 @@
     font-family: "Be Vietnam Pro", sans-serif;
 }
 
-.main-container.dark-mode {
+body.dark-mode {
     --bg-colour: #241f31;
     --text-colour: #ffffff;
 }
@@ -35,24 +35,25 @@
 }
 
 button#toggle-mode {
-  position: fixed;
-  top: 2rem;
-  right: 2rem;
-  z-index: 1000;
-  padding: 0.5rem 1.1rem;
-  cursor: pointer;
-  background-color: var(--text-colour);
-  color: var(--bg-colour);
-  font-weight: bold;
-  font-family: "Be Vietnam Pro", sans-serif;
-  border: 0;
-  border-radius: 1rem;
-  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 1000;
+    padding: 0.4rem 1.0rem;
+    cursor: pointer;
+    background-color: var(--text-colour);
+    color: var(--bg-colour);
+    border: 2px solid var(--bg-colour);
+    font-weight: bold;
+    font-family: "Be Vietnam Pro", sans-serif;
+    border: 0;
+    border-radius: 1rem;
+    transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
 }
 
 button#toggle-mode:hover {
-  padding: 0.4rem 1.0rem;
-  border: 2px solid var(--text-colour);
-  background-color: var(--bg-colour);
-  color: var(--text-colour);
+    padding: 0.4rem 1.0rem;
+    border: 2px solid var(--text-colour);
+    background-color: var(--bg-colour);
+    color: var(--text-colour);
 }
