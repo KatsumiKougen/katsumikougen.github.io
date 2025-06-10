@@ -4,7 +4,7 @@
     transition: background-color 0.25s ease, color 0.25s ease;
 }
 
-body {
+.main-container {
     background-color: var(--bg-colour);
     color: var(--text-colour);
     padding: 4em 6em;
@@ -13,12 +13,12 @@ body {
     font-family: "Be Vietnam Pro", sans-serif;
 }
 
-body.dark-mode {
+.main-container.dark-mode {
     --bg-colour: #241f31;
     --text-colour: #ffffff;
 }
 
-body div.intro {
+.main-container div.intro {
     font-size: 8em;
     font-weight: 900;
     letter-spacing: -3pt;
@@ -26,15 +26,15 @@ body div.intro {
     text-transform: uppercase;
 }
 
-body div.text {
+.main-container div.text {
     margin: 2em;
 }
 
-body div.text p {
+.main-container div.text p {
     padding: 0.2em 0;
 }
 
-body button#toggle-mode {
+button#toggle-mode {
   position: fixed;
   top: 2rem;
   right: 2rem;
@@ -44,12 +44,13 @@ body button#toggle-mode {
   background-color: var(--text-colour);
   color: var(--bg-colour);
   font-weight: bold;
+  font-family: "Be Vietnam Pro", sans-serif;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
 }
 
-body button#toggle-mode:hover {
+button#toggle-mode:hover {
   padding: 0.4rem 1.0rem;
   border: 2px solid var(--text-colour);
   background-color: var(--bg-colour);
