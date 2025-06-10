@@ -43,10 +43,9 @@ button#toggle-mode {
     cursor: pointer;
     background-color: var(--text-colour);
     color: var(--bg-colour);
-    border: 2px solid var(--bg-colour);
     font-weight: bold;
     font-family: "Be Vietnam Pro", sans-serif;
-    border: 0;
+    border: 2px solid var(--bg-colour);
     border-radius: 1rem;
     transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
 }
