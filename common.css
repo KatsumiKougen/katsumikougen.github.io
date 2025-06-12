@@ -43,6 +43,11 @@ body.dark-mode {
     font-weight: 600;
 }
 
+.main-container h1 {
+    margin: 0.25em 0;
+    font-weight: 800;
+}
+
 .main-container hr {
     border: 3px solid var(--text-colour);
     border-radius: 1em;
@@ -69,6 +74,27 @@ button#toggle-mode:hover {
     border: 2px solid var(--text-colour);
     background-color: var(--bg-colour);
     color: var(--text-colour);
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:link {
+    color: #741ce3;
+}
+
+a:visited {
+    color: #741ce3;
+}
+
+a:active {
+    color: #9f60ef;
+}
+
+a:hover {
+    color: #9f60ef;
+    text-decoration-line: underline;
 }
 
 @media only screen and (max-width: 412px) {
