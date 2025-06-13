@@ -54,6 +54,21 @@ body.dark-mode {
     margin: 10px 0;
 }
 
+.main-container code {
+    font-weight: normal;
+    color: #8542dc;
+    background-color: #d2afff;
+    padding: 0 0.2em;
+    border: 3px solid #8542dc;
+    border-radius: 0.5em;
+}
+
+.main-container :is(h1, h2, h3, h4, h5, h6) > code {
+    font-weight: bold;
+    position: relative;
+    top: -3px;
+}
+
 button#toggle-mode {
     position: fixed;
     top: 3rem;
@@ -126,6 +141,11 @@ a:hover {
     .main-container :is(h1, h2, h3, h4, h5, h6) {
         font-size: 1.5em;
         font-weight: bold;
+    }
+
+    .main-container :is(h1, h2, h3, h4, h5, h6) > code {
+        position: relative;
+        top: -1px;
     }
 }
 
