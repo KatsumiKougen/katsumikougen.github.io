@@ -128,3 +128,35 @@ a:hover {
         font-weight: bold;
     }
 }
+
+@media only screen and (max-width: 915px) {
+    body {
+        font-size: 1em;
+    }
+    
+    .main-container {
+        padding: 0.5em 2em;
+    }
+    
+    .main-container div.intro {
+        font-size: 3em;
+        letter-spacing: -1pt;
+        line-height: 0.9em;
+    }
+    
+    .main-container div.text {
+        margin: 1em;
+    }
+    
+    button#toggle-mode {
+        top: 1rem;
+        right: 1rem;
+        padding: 0.2rem 0.5rem;
+        font-weight: 800;
+    }
+    
+    .main-container :is(h1, h2, h3, h4, h5, h6) {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+}
