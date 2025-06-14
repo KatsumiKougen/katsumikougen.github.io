@@ -162,19 +162,19 @@ a {
 }
 
 a:link {
-    color: #741ce3;
+    color: var(--link-colour);
 }
 
 a:visited {
-    color: #741ce3;
+    color: var(--link-colour);
 }
 
 a:active {
-    color: #9f60ef;
+    color: var(--highlighted-link-colour);
 }
 
 a:hover {
-    color: #9f60ef;
+    color: var(--highlighted-link-colour);
     text-decoration-line: underline;
 }
 

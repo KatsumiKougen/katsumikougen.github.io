@@ -1,3 +1,13 @@
+:root {
+    --link-colour: #741ce3;
+    --highlighted-link-colour: #9f60ef;
+}
+
+body.dark-mode {
+    --link-colour: #d3bff2;
+    --highlighted-link-colour: #9f60ef;
+}
+
 .main-container div.gallery {
     position: relative;
     background-color: var(--block-bg-colour);
@@ -57,6 +67,23 @@ div.gallery > .media-item > .media-information > div.description {
 
 div.gallery > .media-item > .media-information > div.description p {
     margin: 0.5em 0;
+}
+
+div.gallery > .media-item > .media-information > div.description a:link {
+    color: var(--link-colour);
+}
+
+div.gallery > .media-item > .media-information > div.description a:visited {
+    color: var(--link-colour);
+}
+
+div.gallery > .media-item > .media-information > div.description a:active {
+    color: var(--highlighted-link-colour);
+}
+
+div.gallery > .media-item > .media-information > div.description a:hover {
+    color: var(--highlighted-link-colour);
+    text-decoration-line: underline;
 }
 
 @media only screen and (max-width: 412px) and (orientation: portrait) {
