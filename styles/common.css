@@ -274,13 +274,6 @@ a:hover {
         padding: 1em;
         border-radius: 0.75em;
     }
-
-    .main-container blockquote {
-        background-color: var(--block-bg-colour);
-        margin: 1em 0.4em;
-        padding: 1em;
-        border-radius: 0.75em;
-    }
     
     .main-container blockquote::before {
         position: absolute;
