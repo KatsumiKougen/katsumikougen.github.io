@@ -119,6 +119,18 @@ body.dark-mode {
     content: "— ";
 }
 
+.main-container :is(ul, ol) {
+    --padding-level: 1.5em;
+    margin: 0.75em 0;
+    padding-left: var(--padding-level);
+}
+
+.main-container :is(ul, ol) > :is(ul, ol) {
+    --padding-level: calc(var(--padding-level) + 1em);
+    margin: 0;
+    padding-left: 1em;
+}
+
 button {
     position: fixed;
     top: 3rem;
