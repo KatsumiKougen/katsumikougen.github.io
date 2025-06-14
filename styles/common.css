@@ -2,6 +2,8 @@
     --bg-colour: #ffffff;
     --text-colour: #241f31;
     --block-bg-colour: #d3bff2;
+    --link-colour: #741ce3;
+    --highlighted-link-colour: #9f60ef;
     transition: background-color 0.25s ease, color 0.25s ease;
 }
 
