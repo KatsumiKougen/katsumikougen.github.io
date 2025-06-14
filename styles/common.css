@@ -1,7 +1,7 @@
 :root {
     --bg-colour: #ffffff;
     --text-colour: #241f31;
-    --blockquote-bg-colour: #d3bff2;
+    --block-bg-colour: #d3bff2;
     transition: background-color 0.25s ease, color 0.25s ease;
 }
 
@@ -16,7 +16,7 @@ body {
 body.dark-mode {
     --bg-colour: #241f31;
     --text-colour: #ffffff;
-    --blockquote-bg-colour: #573688;
+    --block-bg-colour: #573688;
 }
 
 .main-container {
@@ -73,7 +73,7 @@ body.dark-mode {
 
 .main-container blockquote {
     position: relative;
-    background-color: var(--blockquote-bg-colour);
+    background-color: var(--block-bg-colour);
     margin: 2em 8em;
     padding: 2em 4em;
     border-radius: 1em;
@@ -205,7 +205,7 @@ a:hover {
     }
 
     .main-container blockquote {
-        background-color: var(--blockquote-bg-colour);
+        background-color: var(--block-bg-colour);
         margin: 1em 0.4em;
         padding: 1em;
         border-radius: 0.75em;
@@ -269,14 +269,14 @@ a:hover {
     }
 
     .main-container blockquote {
-        background-color: var(--blockquote-bg-colour);
+        background-color: var(--block-bg-colour);
         margin: 1em 0.4em;
         padding: 1em;
         border-radius: 0.75em;
     }
 
     .main-container blockquote {
-        background-color: var(--blockquote-bg-colour);
+        background-color: var(--block-bg-colour);
         margin: 1em 0.4em;
         padding: 1em;
         border-radius: 0.75em;
