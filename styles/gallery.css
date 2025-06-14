@@ -1,0 +1,129 @@
+.main-container div.gallery {
+    position: relative;
+    background-color: var(--block-bg-colour);
+    margin: 2em 4em;
+    padding: 2em 2em 2em 5em;
+    border-radius: 1em;
+}
+
+.main-container div.gallery::before {
+    position: absolute;
+    top: -0.3em;
+    left: -0.3em;
+    font-size: 2em;
+    color: #160b48;
+    user-select: none;
+    pointer-events: none;
+    background: #692deb;
+    border-radius: 8px;
+    padding: 0.3em;
+}
+
+.main-container div.gallery#image::before {
+    content: "🖼️";
+}
+
+div.gallery > .media-item {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+div.gallery > .media-item > a {
+    display: block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+div.gallery > .media-item > a > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+div.gallery > .media-item > .media-information > span.caption {
+    font-size: 2em;
+    letter-spacing: -1px;
+    font-weight: 800;
+}
+
+div.gallery > .media-item > .media-information > div.description {
+    font-size: 0.8em;
+}
+
+div.gallery > .media-item > .media-information > div.description p {
+    margin: 0.5em 0;
+}
+
+@media only screen and (max-width: 412px) and (orientation: portrait) {
+    .main-container div.gallery {
+        background-color: var(--block-bg-colour);
+        margin: 1em 0.4em;
+        padding: 1em 1em 1em 2em;
+        border-radius: 0.75em;
+    }
+    
+    .main-container div.gallery::before {
+        position: absolute;
+        top: -0.15em;
+        left: -0.15em;
+        font-size: 1em;
+        padding: 0.25em;
+    }
+    
+    div.gallery > .media-item {
+        flex-direction: column;
+        align-items: flex-start;
+        align-items: center;
+    }
+    
+    div.gallery > .media-item > *:not(a) {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    
+    div.gallery > .media-item > .media-information > span.caption {
+        font-size: 1.3em;
+        letter-spacing: -1px;
+    }
+    
+    div.gallery > .media-item > .media-information > div.description {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 960px) and (orientation: landscape) {
+    .main-container div.gallery {
+        background-color: var(--block-bg-colour);
+        margin: 1em 0.4em;
+        padding: 1em 1em 1em 2em;
+        border-radius: 0.75em;
+    }
+    
+    .main-container div.gallery::before {
+        position: absolute;
+        top: -0.15em;
+        left: -0.15em;
+        font-size: 1em;
+        padding: 0.25em;
+    }
+    
+    div.gallery > .media-item {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    div.gallery > .media-item > .media-information > span.caption {
+        font-size: 1.3em;
+        letter-spacing: -1px;
+    }
+    
+    div.gallery > .media-item > .media-information > div.description {
+        font-size: 1em;
+    }
+}
