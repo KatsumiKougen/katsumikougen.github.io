@@ -69,7 +69,7 @@ body.dark-mode {
     top: -3px;
 }
 
-button#toggle-mode {
+button {
     position: fixed;
     top: 3rem;
     right: 3rem;
@@ -85,7 +85,7 @@ button#toggle-mode {
     transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
 }
 
-button#toggle-mode:hover {
+button:hover {
     border: 2px solid var(--text-colour);
     background-color: var(--bg-colour);
     color: var(--text-colour);
@@ -131,7 +131,7 @@ a:hover {
         margin: 1em;
     }
     
-    button#toggle-mode {
+    button {
         top: 1rem;
         right: 1rem;
         padding: 0.2rem 0.5rem;
@@ -174,7 +174,7 @@ a:hover {
         margin: 1em;
     }
     
-    button#toggle-mode {
+    button {
         top: 1rem;
         right: 1rem;
         padding: 0.2rem 0.5rem;
