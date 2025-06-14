@@ -1,6 +1,7 @@
 :root {
     --bg-colour: #ffffff;
     --text-colour: #241f31;
+    --blockquote-bg-colour: #d3bff2;
     transition: background-color 0.25s ease, color 0.25s ease;
 }
 
@@ -15,6 +16,7 @@ body {
 body.dark-mode {
     --bg-colour: #241f31;
     --text-colour: #ffffff;
+    --blockquote-bg-colour: #573688;
 }
 
 .main-container {
@@ -67,6 +69,54 @@ body.dark-mode {
     font-weight: bold;
     position: relative;
     top: -3px;
+}
+
+.main-container blockquote {
+    position: relative;
+    background-color: var(--blockquote-bg-colour);
+    margin: 2em 8em;
+    padding: 2em 4em;
+    border-radius: 1em;
+}
+
+.main-container blockquote::before {
+    content: "❝";
+    position: absolute;
+    top: -0.3em;
+    left: -0.3em;
+    font-size: 3.5em;
+    line-height: 1;
+    color: #160b48;
+    user-select: none;
+    pointer-events: none;
+    background: #692deb;
+    border-radius: 8px;
+    padding: 0.3em 0.5em;
+}
+
+.main-container blockquote > div.quote {
+    margin-left: 4em;
+}
+
+.main-container blockquote > div.quote p {
+    margin: 0;
+    margin-bottom: 1em;
+    font-weight: 300;
+    font-size: 1.15em;
+    font-style: italic;
+}
+
+.main-container blockquote > div.quote p > strong {
+    font-weight: 500;
+}
+
+.main-container blockquote > div.quote > cite {
+    font-weight: bold;
+    font-size: 0.85em;
+}
+
+.main-container blockquote > div.quote > cite::before {
+    content: "— ";
 }
 
 button {
@@ -153,6 +203,32 @@ a:hover {
         border: 1px solid;
         border-radius: 0.5em;
     }
+
+    .main-container blockquote {
+        background-color: var(--blockquote-bg-colour);
+        margin: 1em 0.4em;
+        padding: 1em;
+        border-radius: 0.75em;
+    }
+    
+    .main-container blockquote::before {
+        position: absolute;
+        top: -0.15em;
+        left: -0.15em;
+        font-size: 2.75em;
+        line-height: 1;
+        padding: 0.05em 0.17em;
+    }
+
+    .main-container blockquote > div.quote {
+        margin-left: 2em;
+    }
+
+    .main-container blockquote > div.quote p {
+        margin: 0;
+        margin-bottom: 0.5em;
+        font-size: 1em;
+    }
 }
 
 @media only screen and (max-width: 960px) and (orientation: landscape) {
@@ -190,5 +266,38 @@ a:hover {
         font-weight: 500;
         border: 1px solid;
         border-radius: 0.5em;
+    }
+
+    .main-container blockquote {
+        background-color: var(--blockquote-bg-colour);
+        margin: 1em 0.4em;
+        padding: 1em;
+        border-radius: 0.75em;
+    }
+
+    .main-container blockquote {
+        background-color: var(--blockquote-bg-colour);
+        margin: 1em 0.4em;
+        padding: 1em;
+        border-radius: 0.75em;
+    }
+    
+    .main-container blockquote::before {
+        position: absolute;
+        top: -0.15em;
+        left: -0.15em;
+        font-size: 2.75em;
+        line-height: 1;
+        padding: 0.05em 0.17em;
+    }
+
+    .main-container blockquote > div.quote {
+        margin-left: 2em;
+    }
+
+    .main-container blockquote > div.quote p {
+        margin: 0;
+        margin-bottom: 0.5em;
+        font-size: 1em;
     }
 }
