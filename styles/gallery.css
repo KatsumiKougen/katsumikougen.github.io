@@ -37,6 +37,7 @@ div.gallery > .media-item {
     display: flex;
     flex-direction: row;
     gap: 1em;
+    margin: 1em 0;
 }
 
 div.gallery > .media-item > a {
