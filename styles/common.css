@@ -19,6 +19,10 @@ body.dark-mode {
     --block-bg-colour: #573688;
 }
 
+.small {
+    font-size: 0.75em;
+}
+
 .main-container {
     padding: 3em 4em;
 }
