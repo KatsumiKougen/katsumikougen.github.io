@@ -207,8 +207,31 @@ a:hover {
     }
     
     .main-container :is(h1, h2, h3, h4, h5, h6) {
-        font-size: 1.5em;
         font-weight: bold;
+    }
+    
+    .main-container h1 {
+        font-size: 1.8em;
+    }
+    
+    .main-container h2 {
+        font-size: 1.35em;
+    }
+    
+    .main-container h3 {
+        font-size: 1.15em;
+    }
+    
+    .main-container h4 {
+        font-size: 1em;
+    }
+    
+    .main-container h5 {
+        font-size: 0.9em;
+    }
+    
+    .main-container h6 {
+        font-size: 0.75em;
     }
 
     .main-container :is(h1, h2, h3, h4, h5, h6) > code {
@@ -276,8 +299,31 @@ a:hover {
     }
     
     .main-container :is(h1, h2, h3, h4, h5, h6) {
-        font-size: 1.5em;
         font-weight: bold;
+    }
+    
+    .main-container h1 {
+        font-size: 1.8em;
+    }
+    
+    .main-container h2 {
+        font-size: 1.35em;
+    }
+    
+    .main-container h3 {
+        font-size: 1.15em;
+    }
+    
+    .main-container h4 {
+        font-size: 1em;
+    }
+    
+    .main-container h5 {
+        font-size: 0.9em;
+    }
+    
+    .main-container h6 {
+        font-size: 0.75em;
     }
     
     .main-container code {
