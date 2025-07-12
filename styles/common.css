@@ -25,6 +25,17 @@ body.dark-mode {
     font-size: 0.75em;
 }
 
+.blurred {
+    filter: blur(5px);
+    cursor: pointer;
+    transition: filter 0.15s ease;
+    user-select: none;
+}
+
+.unblurred {
+    filter: none;
+}
+
 .main-container {
     padding: 3em 4em;
 }
