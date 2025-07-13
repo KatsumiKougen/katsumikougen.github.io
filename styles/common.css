@@ -29,7 +29,6 @@ body.dark-mode {
     filter: blur(5px);
     cursor: pointer;
     transition: filter 0.15s ease;
-    user-select: none;
 }
 
 .unblurred {
