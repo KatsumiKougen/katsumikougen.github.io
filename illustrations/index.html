@@ -90,6 +90,17 @@
                 </div>
             </div>
             <div class="media-item">
+                <a href="../media/Illustration.nU5dHuXTJewjq7Ba.jpg" target="_blank" rel="noopener">
+                    <img src="../media/Illustration.nU5dHuXTJewjq7Ba.jpg" alt="Fan art crossover: A Dalek aggressively shouts &quot;EXTERMINATE!&quot; while the &quot;Arknights&quot; Doctor raises their hands defensively, saying &quot;You mistake me for the other Doctor!&quot; Caption reads &quot;We've got some guests at Rhodes Island, Doctor...&quot;">
+                </a>
+                <div class="media-information">
+                    <span class="caption">"You Are <strong>the Doctor</strong>! You Will Be Exterminated! <u id="audio-ExterminateExterminateExterminate">Exterminate! <em>Exterminate! <strong>Exterminate!!!</strong></em></u>"</span>
+                    <div class="description">
+                        <p>Wrong f*cking <em>Doctor</em>!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="media-item">
                 <a href="../media/Illustration.IcEMvjWgTE7mLJOu.jpg" target="_blank" rel="noopener">
                     <img src="../media/Illustration.IcEMvjWgTE7mLJOu.jpg" alt="Colourful fan art of a stylised owl-like character representing ZeWei, emerging from a purple &quot;CONTINUE&quot; pipe. Above its name are two crossed-out absurd names, referencing Tom Scott's joke. The owl smiles with one wing raised, saying &quot;I know ten thousand things,&quot; nodding to Wan Shi Tong from &quot;Avatar: The Last Airbender&quot;. The illustration combines humour, pop culture references, and whimsical, internet-savvy style.">
                 </a>
@@ -114,6 +125,16 @@
     <!-- JAVASCRIPT IMPORT HERE! DO NOT TOUCH! -->
     <script src="../js/dark-mode.js"></script>
     <script src="../js/spoiler.js"></script>
+    <script>
+        const audio = new Audio("../media/ExterminateExterminateExterminate.mp3");
+        
+        const pageTitleElement = document.getElementById("audio-ExterminateExterminateExterminate");
+        
+        pageTitleElement.addEventListener("click", () => {
+            audio.currentTime = 0;
+            audio.play();
+        })
+    </script>
     <!-- JAVASCRIPT IMPORT ENDS! ALL CLEAR! -->
 </body>
 </html>
