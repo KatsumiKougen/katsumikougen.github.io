@@ -1,5 +1,5 @@
-const spoiler = document.getElementById("spoiler");
-
-spoiler.addEventListener("click", () => {
-    spoiler.classList.toggle("unblurred");
+document.querySelectorAll(".spoiler").forEach(el => {
+    el.addEventListener("click", () => {
+        el.classList.toggle("unblurred");
+    });
 });
