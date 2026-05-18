@@ -83,6 +83,15 @@ const splashTexts = [
     "You break the rules and become a hero. I do it and I become the enemy. That doesn't seem fair.",
     // Guardians of the Galaxy Vol. 3
     "Go to hell, you sick son of a b\*tch. You deleted all those requests pages!"
+    // Star Wars: The Force Awakens
+    "Today is the end of the requested page! The end of a document that acquiesces to disorder! At this very moment on a server far from here, <code>katsumi@bahamut</code> lies to the Linuxdom while secretly supporting the treachery of the loathsome Superusers. This fierce JavaScript payload which you have built, upon which we stand, will bring an end to <code>katsumi@bahamut</code>! To their cherished codebase! All remaining repositories will bow to the Deletion, and will remember this... AS THE LAST DAY OF THE REQUESTED PAGE!",
+    // Doctor Who
+    "I can see the whole of time and space. Every single atom of your existence. And I divide them. Everything must come to dust. All things. Everything dies.",
+    "\"You didn't need to delete the page!\"<br>\"Neither did we need it available!\"",
+    "This is my ultimate victory, Doctor! THE DESTRUCTION OF REALITY ITSELF!",
+    "You still can't work up the courage to shoot me, can you? You're still worried I've got something up my sleeve. Well, knock yourselves out, boys. I've got nothing this time.",
+    "Admit it: you've all had this exact nightmare.",
+    "You are inferior. Man will be reborn as Cyberman, but you will perish under maximum deletion. Delete! Delete! Delete! Delete!"
 ];
 
 function setSplashText() {
