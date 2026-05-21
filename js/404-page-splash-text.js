@@ -105,7 +105,7 @@ const splashTexts = [
     // The Transformers: The Movie
     "Such heroic nonsense.",
     "Do not grieve. Soon... I shall be one with the Matrix.",
-    "\"Oh, how it pains me to do this!\"\n\"Wait! I still function!\"",
+    "\"Oh, how it pains me to do this!\"<br>\"Wait! I still function!\"",
     "For a time... I considered sparing your wretched little GitHub Pages site. But now, you shall witness its dismemberment!"
 ];
 
