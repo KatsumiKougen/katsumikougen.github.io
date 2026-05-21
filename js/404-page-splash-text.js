@@ -83,7 +83,7 @@ const splashTexts = [
     // Doctor Strange in the Multiverse of Madness
     "You break the rules and become a hero. I do it and I become the enemy. That doesn't seem fair.",
     // Guardians of the Galaxy Vol. 3
-    "Go to hell, you sick son of a b\*tch. You deleted all those requests pages!"
+    "Go to hell, you sick son of a b\*tch. You deleted all those requests pages!",
     // Star Wars: The Force Awakens
     "Today is the end of the requested page! The end of a document that acquiesces to disorder! At this very moment on a server far from here, <code>katsumi@bahamut</code> lies to the Linuxdom while secretly supporting the treachery of the loathsome Superusers. This fierce JavaScript payload which you have built, upon which we stand, will bring an end to <code>katsumi@bahamut</code>! To their cherished codebase! All remaining repositories will bow to the Deletion, and will remember this... AS THE LAST DAY OF THE REQUESTED PAGE!",
     // Doctor Who
