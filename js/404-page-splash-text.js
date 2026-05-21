@@ -2,6 +2,7 @@ const splashTexts = [
     "There is no requested page in Ba Sing Se.",
     "I CAN'T SEE SHIT",
     "Behold! My Page-Go-Away-inator!",
+    "I have been felled by a winged beast of destruction!",
     // Dune: Part One
     "I said I would not delete them, and I shall not. But the Internet is the Internet, and the Internet takes the weak. My Internet. My project. My GitHub Pages site.",
     "I am commanded to say nothing. To see nothing.",
@@ -91,7 +92,21 @@ const splashTexts = [
     "This is my ultimate victory, Doctor! THE DESTRUCTION OF REALITY ITSELF!",
     "You still can't work up the courage to shoot me, can you? You're still worried I've got something up my sleeve. Well, knock yourselves out, boys. I've got nothing this time.",
     "Admit it: you've all had this exact nightmare.",
-    "You are inferior. Man will be reborn as Cyberman, but you will perish under maximum deletion. Delete! Delete! Delete! Delete!"
+    "You are inferior. Man will be reborn as Cyberman, but you will perish under maximum deletion. Delete! Delete! Delete! Delete!",
+    // The Terminator
+    "It can't be bargained with. It can't be reasoned with. It doesn't feel pity, or remorse, or fear! And it absolutely will not stop, ever, until you are deleted!",
+    "There was a flame war. A few years from now... all this... this whole page, everything...it's gone. Just gone. There were survivors. Here, there. Nobody even knew who started it. It was the admins.",
+    "The admins rose from the ashes of the botched pull request. Their war to exterminate codebases had raged for decades, but the final battle would not be fought in the future. It would be fought here, in our present. Tonight...",
+    // Terminator 2
+    "It's not every day that you find out you're responsible for three billion deletions. He took it pretty well.",
+    "We have to destroy all the stuff at the lab; the files, the disk drives, everything, everything here. Everything. I don't care.",
+    "I know now why you cry. But it's something I can never do.",
+    "It's in your nature to destroy yourselves.",
+    // The Transformers: The Movie
+    "Such heroic nonsense.",
+    "Do not grieve. Soon... I shall be one with the Matrix.",
+    "\"Oh, how it pains me to do this!\"\n\"Wait! I still function!\"",
+    "For a time... I considered sparing your wretched little GitHub Pages site. But now, you shall witness its dismemberment!"
 ];
 
 function setSplashText() {
