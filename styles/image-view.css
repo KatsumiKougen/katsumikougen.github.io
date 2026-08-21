@@ -1,0 +1,74 @@
+:root {
+    --link-colour: #741ce3;
+    --highlighted-link-colour: #9f60ef;
+}
+
+body.dark-mode {
+    --link-colour: #d3bff2;
+    --highlighted-link-colour: #9f60ef;
+}
+
+.main-container div.image-view {
+    position: relative;
+    background-color: var(--block-bg-colour);
+    margin: 2em 8em;
+    padding: 2em 2em 2em 5em;
+    border-radius: 1em;
+}
+
+.main-container div.image-view::before {
+    position: absolute;
+    top: -0.3em;
+    left: -0.3em;
+    font-size: 2em;
+    color: #160b48;
+    user-select: none;
+    pointer-events: none;
+    background: #692deb;
+    border-radius: 8px;
+    padding: 0.3em;
+    content: "🎭";
+}
+
+div.image-view a > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+    .main-container div.image-view {
+        background-color: var(--block-bg-colour);
+        margin: 1em 0.4em;
+        padding: 1em 3em;
+        border-radius: 0.75em;
+        font-size: 0.75em;
+    }
+    
+    .main-container div.image-view::before {
+        position: absolute;
+        top: -0.15em;
+        left: -0.15em;
+        font-size: 1.6em;
+        padding: 0.25em;
+    }
+}
+
+@media only screen and (max-width: 960px) and (orientation: landscape) {
+    .main-container div.image-view {
+        background-color: var(--block-bg-colour);
+        margin: 1em 0.4em;
+        padding: 1em 3em;
+        border-radius: 0.75em;
+        font-size: 0.75em;
+    }
+    
+    .main-container div.image-view::before {
+        position: absolute;
+        top: -0.15em;
+        left: -0.15em;
+        font-size: 1.6em;
+        padding: 0.25em;
+    }
+}
