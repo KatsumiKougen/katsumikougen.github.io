@@ -178,6 +178,8 @@ body.dark-mode {
 
 .main-container details[open] > summary::before {
     content: "CLOSE";
+    color: var(--block-bg-colour);
+    background-color: var(--text-colour) !important;
 }
 
 button {
