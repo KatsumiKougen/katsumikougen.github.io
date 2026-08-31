@@ -19,6 +19,8 @@ body.dark-mode {
     --bg-colour: #241f31;
     --text-colour: #ffffff;
     --block-bg-colour: #573688;
+    --link-colour: #d3bff2;
+    --highlighted-link-colour: #9f60ef;
 }
 
 .small {
