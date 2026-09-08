@@ -89,7 +89,14 @@ body.dark-mode {
     top: -3px;
 }
 
-.main-container blockquote {
+.main-container blockquote.md-compatible {
+    margin: 1em 0 0 0.5em;
+    padding-left: 1em;
+    border-left: 5px solid var(--link-colour);
+    border-radius: 5px;
+}
+
+.main-container blockquote.pretty-quotation {
     position: relative;
     background-color: var(--block-bg-colour);
     margin: 2em 8em;
@@ -97,7 +104,7 @@ body.dark-mode {
     border-radius: 1em;
 }
 
-.main-container blockquote::before {
+.main-container blockquote.pretty-quotation::before {
     content: "❝";
     position: absolute;
     top: -0.3em;
@@ -112,11 +119,11 @@ body.dark-mode {
     padding: 0.3em 0.5em;
 }
 
-.main-container blockquote > div.quote {
+.main-container blockquote.pretty-quotation > div.quote {
     margin-left: 4em;
 }
 
-.main-container blockquote > div.quote p {
+.main-container blockquote.pretty-quotation > div.quote p {
     margin: 0;
     margin-bottom: 1em;
     font-weight: 300;
@@ -124,16 +131,16 @@ body.dark-mode {
     font-style: italic;
 }
 
-.main-container blockquote > div.quote p > strong {
+.main-container blockquote.pretty-quotation > div.quote p > strong {
     font-weight: 500;
 }
 
-.main-container blockquote > div.quote > cite {
+.main-container blockquote.pretty-quotation > div.quote > cite {
     font-weight: bold;
     font-size: 0.85em;
 }
 
-.main-container blockquote > div.quote > cite::before {
+.main-container blockquote.pretty-quotation > div.quote > cite::before {
     content: "— ";
 }
 
@@ -291,15 +298,22 @@ a:hover {
         border: 1px solid;
         border-radius: 0.5em;
     }
+    
+    .main-container blockquote.md-compatible {
+        margin: 1.5em 0 0 0.25em;
+        padding-left: 0.5em;
+        border-left: 3px solid var(--link-colour);
+        border-radius: 3px;
+    }
 
-    .main-container blockquote {
+    .main-container blockquote.pretty-quotation {
         background-color: var(--block-bg-colour);
         margin: 1em 0.4em;
         padding: 1em;
         border-radius: 0.75em;
     }
     
-    .main-container blockquote::before {
+    .main-container blockquote.pretty-quotation::before {
         position: absolute;
         top: -0.15em;
         left: -0.15em;
@@ -308,11 +322,11 @@ a:hover {
         padding: 0.05em 0.17em;
     }
 
-    .main-container blockquote > div.quote {
+    .main-container blockquote.pretty-quotation > div.quote {
         margin-left: 2em;
     }
 
-    .main-container blockquote > div.quote p {
+    .main-container blockquote.pretty-quotation > div.quote p {
         margin: 0;
         margin-bottom: 0.5em;
         font-size: 1em;
@@ -392,15 +406,22 @@ a:hover {
         border: 1px solid;
         border-radius: 0.5em;
     }
+    
+    .main-container blockquote.md-compatible {
+        margin: 1.5em 0 0 0.25em;
+        padding-left: 0.5em;
+        border-left: 3px solid var(--link-colour);
+        border-radius: 3px;
+    }
 
-    .main-container blockquote {
+    .main-container blockquote.pretty-quotation {
         background-color: var(--block-bg-colour);
         margin: 1em 0.4em;
         padding: 1em;
         border-radius: 0.75em;
     }
     
-    .main-container blockquote::before {
+    .main-container blockquote.pretty-quotation::before {
         position: absolute;
         top: -0.15em;
         left: -0.15em;
@@ -409,11 +430,11 @@ a:hover {
         padding: 0.05em 0.17em;
     }
 
-    .main-container blockquote > div.quote {
+    .main-container blockquote.pretty-quotation > div.quote {
         margin-left: 2em;
     }
 
-    .main-container blockquote > div.quote p {
+    .main-container blockquote.pretty-quotation > div.quote p {
         margin: 0;
         margin-bottom: 0.5em;
         font-size: 1em;
