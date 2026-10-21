@@ -48,6 +48,7 @@ body.dark-mode {
     letter-spacing: -3pt;
     line-height: 0.85em;
     text-transform: uppercase;
+    overflow-wrap: break-word;
 }
 
 .main-container p {
