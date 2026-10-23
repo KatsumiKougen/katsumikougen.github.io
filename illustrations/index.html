@@ -105,7 +105,7 @@
                     <img src="../media/Illustration.nU5dHuXTJewjq7Ba.jpg" alt="Fan art crossover: A Dalek aggressively shouts &quot;EXTERMINATE!&quot; while the &quot;Arknights&quot; Doctor raises their hands defensively, saying &quot;You mistake me for the other Doctor!&quot; Caption reads &quot;We've got some guests at Rhodes Island, Doctor...&quot;">
                 </a>
                 <div class="media-information">
-                    <span class="caption">"You Are <strong>the Doctor</strong>! You Will Be Exterminated! <u id="audio-ExterminateExterminateExterminate">Exterminate! <em>Exterminate! <strong>Exterminate!!!</strong></em></u>"</span>
+                    <span class="caption">"You Are <strong>the Doctor</strong>! You Will Be Exterminated! <u class="audio" audio_path="../media/ExterminateExterminateExterminate.mp3">Exterminate! <em>Exterminate! <strong>Exterminate!!!</strong></em></u>"</span>
                     <div class="description">
                         <p>Wrong f*cking <em>Doctor</em>!</p>
                     </div>
@@ -136,16 +136,7 @@
     <!-- JAVASCRIPT IMPORT HERE! DO NOT TOUCH! -->
     <script src="../js/dark-mode.js"></script>
     <script src="../js/spoiler.js"></script>
-    <script>
-        const audio = new Audio("../media/ExterminateExterminateExterminate.mp3");
-        
-        const pageTitleElement = document.getElementById("audio-ExterminateExterminateExterminate");
-        
-        pageTitleElement.addEventListener("click", () => {
-            audio.currentTime = 0;
-            audio.play();
-        })
-    </script>
+    <script src="../js/audio.js"></script>
     <!-- JAVASCRIPT IMPORT ENDS! ALL CLEAR! -->
 </body>
 </html>
